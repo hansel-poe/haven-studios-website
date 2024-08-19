@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haven Studios - Art & Design co.</title>
+
+    <link rel="icon" href="./images/haven-studios-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <navbar class="navbar">
+      <div class="navbar__container container">
+        <div class="navbar__logo">
+          <a href="index.html" class="navbar__logo-link">
+            <img src="./images/haven-studios-logo.png" alt="Haven Studios" />
+          </a>
+          <a href="index.html" class="navbar__logo-link">
+            <h1 class="navbar__logo-title">Haven Studios</h1>
+          </a>
+        </div>
+
+        <!-- Navbar Menu -->
+        <div class="navbar__menu">
+          <ul class="navbar__menu-list">
+            <li class="navbar__menu-item">
+              <a href="index.html" class="navbar__menu-link">Home</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#courses" class="navbar__menu-link">Courses</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#instructors" class="navbar__menu-link">Instructors</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#resources" class="navbar__menu-link">Resources</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#" class="navbar__menu-link--primary">Login</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#pricing" class="navbar__menu-link--secondary"
+                >Sign Up</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Hamburger Menu  -->
+        <div class="navbar__mobile-menu">
+          <div class="navbar__mobile-menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <ul class="navbar__mobile-menu-list">
+            <li class="navbar__mobile-menu-item">
+              <a href="index.html" class="navbar__mobile-menu-link">Home</a>
+            </li>
+            <li class="navbar__mobile-menu-item">
+              <a href="#courses" class="navbar__mobile-menu-link">Courses</a>
+            </li>
+            <li class="navbar__mobile-menu-item">
+              <a href="#instructors" class="navbar__mobile-menu-link"
+                >Instructors</a
+              >
+            </li>
+            <li class="navbar__mobile-menu-item">
+              <a href="#resources" class="navbar__mobile-menu-link"
+                >Resources</a
+              >
+            </li>
+            <li class="navbar__mobile-menu-item">
+              <a href="#" class="navbar__mobile-menu-link--primary">Login</a>
+            </li>
+            <li class="navbar__mobile-menu-item">
+              <a href="#pricing" class="navbar__mobile-menu-link--secondary"
+                >Sign Up</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </navbar>
+
+    <!-- Hero -->
+    <header class="hero" id="hero">
+      <div class="hero__container container">
+        <div class="hero__content">
+          <h1 class="hero__title">Learn Professional Art and Design</h1>
+          <p class="hero__description">
+            Refine your artistic skills and improve faster with classes taught
+            by industry professionals.
+          </p>
+          <div class="hero__button btn">
+            <a href="signup.html">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Courses -->
+    <section class="courses section" id="courses">
+      <div class="courses__container container">
+        <div class="courses__header">
+          <h2 class="courses__title">Courses</h2>
+          <div class="header-border"></div>
+          <p class="courses__description">
+            Browse our extensive catalogue of 70+ courses and 1700+ hours worth
+            of content ranging from traditional art and Entertainment to Applied
+            arts.
+          </p>
+        </div>
+        <div class="courses__grid">
+          <div class="courses__grid-item">
+            <img src="/images/drawing.jpg" alt="Drawing" />
+            <h2 class="courses__grid-item-title">Drawing</h2>
+          </div>
+          <div class="courses__grid-item">
+            <img src="images/painting.jpg" alt="Painting" />
+            <h2 class="courses__grid-item-title">Painting</h2>
+          </div>
+          <div class="courses__grid-item">
+            <img src="images/animation.jpg" alt="Animation" />
+            <h2 class="courses__grid-item-title">Animation</h2>
+          </div>
+          <div class="courses__grid-item">
+            <img src="images/3d-modeling.jpg" alt="3D Modeling" />
+            <h2 class="courses__grid-item-title">3D Modeling</h2>
+          </div>
+          <div class="courses__grid-item">
+            <img src="images/graphics-design.jpg" alt="Graphics Design" />
+            <h2 class="courses__grid-item-title">Graphics Design</h2>
+          </div>
+          <div class="courses__grid-item">
+            <img src="images/industrial-design.jpg" alt="Industrial Design" />
+            <h2 class="courses__grid-item-title">Industrial Design</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instructors -->
+    <section class="instructors section" id="instructors">
+      <div class="instructors__container container">
+        <div class="instructors__header">
+          <div class="instructors__title">Instructors</div>
+          <div class="header-border"></div>
+          <div class="instructors__description">
+            Learn from professionals with years of experience in the industry
+          </div>
+        </div>
+        <div class="instructors__scroller-wrap">
+          <i class="fa-solid fa-chevron-right fa-2x"></i>
+          <i class="fa-solid fa-chevron-left fa-2x"></i>
+          <div class="instructors__scroller">
+            <div class="instructors__scroller-item item-1">
+              <img src="/images/instructor1.jpg" alt="Instructor 1" />
+            </div>
+            <div class="instructors__scroller-item item-2">
+              <img src="/images/instructor2.jpg" alt="Instructor 2" />
+            </div>
+            <div class="instructors__scroller-item item-3">
+              <img src="/images/instructor3.jpg" alt="Instructor 3" />
+            </div>
+            <div class="instructors__scroller-item item-4">
+              <img src="/images/instructor4.jpg" alt="Instructor 4" />
+            </div>
+            <div class="instructors__scroller-item item-5">
+              <img src="/images/instructor5.jpg" alt="Instructor 5" />
+            </div>
+            <div class="instructors__scroller-item item-6">
+              <img src="/images/instructor6.jpg" alt="Instructor 6" />
+            </div>
+            <div class="instructors__scroller-item item-7">
+              <img src="/images/instructor7.jpg" alt="Instructor 7" />
+            </div>
+          </div>
+        </div>
+
+        <div class="instructors__companies">
+          <img src="/images/bethesda.png" alt="Bethesda" />
+          <img src="/images/cartoon-network.png" alt="Cartoon Network" />
+          <img src="/images/blizzard.jpg" alt="Blizzard" />
+          <img src="/images/Breville_logo.svg.png" alt="Breville" />
+        </div>
+      </div>
+    </section>
+
+    <section class="student-resources section" id="resources">
+      <div class="student-resources__container container">
+        <div class="student-resources__header">
+          <h2 class="student-resources__title">Student Resources</h2>
+          <div class="header-border"></div>
+          <p class="student-resources__description">
+            Get access to over 5000+ reference photos and 50+ 3D Models to help
+            you practice
+          </p>
+        </div>
+        <div class="student-resources__grid">
+          <div class="student-resources__grid-item">
+            <img src="/images/asaro-head.jpg" alt="Asaro Head" />
+          </div>
+          <div class="student-resources__grid-item">
+            <img src="/images/elegant-lady.jpg" alt="Elegant Lady" />
+          </div>
+          <div class="student-resources__grid-item">
+            <img src="/images/laying-statue.jpg" alt="Laying Statue" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing section" id="pricing">
+      <div class="pricing__container container">
+        <div class="pricing__header">
+          <h2 class="pricing__title">Pricing</h2>
+          <div class="header-border"></div>
+        </div>
+
+        <div class="pricing__cards">
+          <div class="pricing__card monthly">
+            <h2 class="pricing__description">Monthly</h2>
+            <h2 class="pricing__price">&dollar; 19.99 <span>/month</span></h2>
+            <h3 class="pricing__saving">SAVE 0%</h3>
+            <h3 class="pricing__enroll">Sign Up</h3>
+            <div class="pricing-border"></div>
+            <h4 class="pricing__notes">Billed &dollar; 19.99 per month</h4>
+          </div>
+          <div class="pricing__card annual">
+            <h2 class="pricing__description">Annual</h2>
+            <h2 class="pricing__price">&dollar; 12.99 <span>/month</span></h2>
+            <h3 class="pricing__saving">SAVE 35%</h3>
+            <h3 class="pricing__enroll">Sign Up</h3>
+            <div class="pricing-border"></div>
+            <h4 class="pricing__notes">Billed &dollar; 155.88 per year</h4>
+          </div>
+
+          <div class="pricing__includes">
+            <h2 class="pricing__includes--description">All plans include:</h2>
+            <ul>
+              <li>
+                <i class="fa-solid fa-check"></i>Access to our course catalogue
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Access to our student's
+                resources database
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Access to our lively discord
+                server
+              </li>
+              <li><i class="fa-solid fa-check"></i>Full support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer section">
+      <div class="footer__container">
+        <div class="footer__about">
+          <h2 class="footer__about-title">About Haven Studios</h2>
+          <p class="footer__about-description">
+            Haven Studios is an online art academy offering courses taught by
+            industry professionals
+          </p>
+        </div>
+        <div class="footer__quick-links">
+          <h2 class="footer__quick-links-title">Quick Links</h2>
+          <ul class="footer__quick-links-list">
+            <li>
+              <a class="footer__quick-links-item" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="footer__quick-links-item" href="#courses">Courses</a>
+            </li>
+            <li>
+              <a class="footer__quick-links-item" href="#instructors"
+                >Instructors</a
+              >
+            </li>
+            <li>
+              <a class="footer__quick-links-item" href="#resources"
+                >Student Resources</a
+              >
+            </li>
+            <li>
+              <a class="footer__quick-links-item" href="#pricing">Pricing</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__social">
+          <a href="facebook.com" class="footer__social-link">
+            <i class="fa-brands fa-facebook fa-3x"></i>
+          </a>
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-twitter fa-3x"></i>
+          </a>
+          <a href="instagram.com" class="footer__social-link">
+            <i class="fa-brands fa-instagram fa-3x"></i>
+          </a>
+          <a href="linkedin.com" class="footer__social-link">
+            <i class="fa-brands fa-linkedin fa-3x"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
