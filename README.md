@@ -1,7 +1,8 @@
-#Haven Studios
+## Haven Studios 
+
 Haven studios is an online art academy website written with HTML, CSS and a bit of JavaScript. The website is designed to be fully responsive by using media queries to change layout directions and element sizes and spacing.
 
-##Features
+## Features
 Here are some features of the website:
 1. Uses HTML semantic tags and BEM class naming convention for neat structured code.
 2. Employs CSS Grid and Flexbox to arrange elements and create professional looking websites
