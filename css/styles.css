@@ -207,7 +207,7 @@ img {
 }
 
 .hero {
-  background: url("/images/hero-background.jpg") center center/cover no-repeat;
+  background: url("../images/hero-background.jpg") center center/cover no-repeat;
   position: relative;
 }
 
