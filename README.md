@@ -11,3 +11,4 @@ Here are some features of the website:
 5. Uses JavaScript event listeners to add click scrolling on instructors card
 6. Design interactive pointer experience by using pseudo elements hover, before, after, and CSS trasnsition to add higlights and underlines on hover.
      
+Check out the website [here](https://hansel-poe.github.io/haven-studios-website/)
